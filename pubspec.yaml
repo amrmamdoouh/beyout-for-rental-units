@@ -1,0 +1,109 @@
+name: temp_house
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  internet_connection_checker_plus:
+  get_it:
+  lottie:
+  shared_preferences:
+  bloc:
+  flutter_bloc:
+  dartz:
+  easy_localization:
+  dio:
+  flutter_animate:
+  json_annotation:
+  url_launcher:
+  pretty_dio_logger:
+  ntp:
+  gsheets:
+  animated_splash_screen:
+  flutter_svg:
+  carousel_slider:
+  image_picker:
+  country_flags:
+  country_picker:
+  google_maps_flutter:
+  firebase_core:
+  cloud_firestore:
+  firebase_auth:
+  firebase_storage:
+  cached_network_image:
+  geolocator: 8.2.0
+  geocoding:
+  awesome_dialog:
+  uuid:
+  intl_phone_field:
+  permission_handler: ^11.3.1
+  firebase_messaging: ^15.0.1
+  google_sign_in:
+  awesome_notifications:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/translations/
+    - assets/svg/
+    - assets/lotties/
+
+  fonts:
+      - family: Kreon
+        fonts:
+          - asset: assets/fonts/english/kreon/Kreon-Bold.ttf
+            weight: 700
+          - asset: assets/fonts/english/kreon/Kreon-SemiBold.ttf
+            weight: 600
+          - asset: assets/fonts/english/kreon/Kreon-Medium.ttf
+            weight: 500
+          - asset: assets/fonts/english/kreon/Kreon-Regular.ttf
+            weight: 400
+          - asset: assets/fonts/english/kreon/Kreon-Light.ttf
+            weight: 300
+      - family: Kurale
+        fonts:
+          - asset: assets/fonts/english/kurale/Kurale-Regular.ttf
+            weight: 400
+      - family: Harmattan
+        fonts:
+          - asset: assets/fonts/arabic/harmattan/Harmattan-Bold.ttf
+            weight: 700
+          - asset: assets/fonts/arabic/harmattan/Harmattan-SemiBold.ttf
+            weight: 600
+          - asset: assets/fonts/arabic/harmattan/Harmattan-Medium.ttf
+            weight: 400
+          - asset: assets/fonts/arabic/harmattan/Harmattan-Regular.ttf
+            weight: 300
+      - family: NotoSansArabic
+        fonts:
+          - asset: assets/fonts/arabic/noto_sans_arabic/NotoSansArabic-Black.ttf
+            weight: 900
+          - asset: assets/fonts/arabic/noto_sans_arabic/NotoSansArabic-ExtraBold.ttf
+            weight: 800
+          - asset: assets/fonts/arabic/noto_sans_arabic/NotoSansArabic-Bold.ttf
+            weight: 700
+          - asset: assets/fonts/arabic/noto_sans_arabic/NotoSansArabic-SemiBold.ttf
+            weight: 600
+          - asset: assets/fonts/arabic/noto_sans_arabic/NotoSansArabic-Medium.ttf
+            weight: 500
+          - asset: assets/fonts/arabic/noto_sans_arabic/NotoSansArabic-Regular.ttf
+            weight: 400
+          - asset: assets/fonts/arabic/noto_sans_arabic/NotoSansArabic-Light.ttf
+            weight: 300
+          - asset: assets/fonts/arabic/noto_sans_arabic/NotoSansArabic-ExtraLight.ttf
+            weight: 200
+          - asset: assets/fonts/arabic/noto_sans_arabic/NotoSansArabic-Thin.ttf
+            weight: 100
